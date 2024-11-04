@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:userprofileview/card.dart';
-
-import 'package:userprofileview/edit_profile.dart';
 
 class UserProfile extends StatefulWidget {
   const UserProfile({super.key});
@@ -66,11 +63,11 @@ class _UserProfileState extends State<UserProfile> {
                         ),
                         ElevatedButton(
                           onPressed: () {
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => const EditProfile()),
-                            );
+                            // Navigator.push(
+                            //   context,
+                            //   MaterialPageRoute(
+                            //       builder: (context) => const EditProfile()),
+                            // );
                           },
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.green,
@@ -94,9 +91,9 @@ class _UserProfileState extends State<UserProfile> {
               ),
             ),
           ),
-          const Expanded(
-            child: MyCardList(), // This calls your MyCardList widget
-          ),
+          // const Expanded(
+          //   child: MyCardList(), // This calls your MyCardList widget
+          // ),
         ],
       ),
     );

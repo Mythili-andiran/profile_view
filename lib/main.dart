@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:userprofileview/card.dart';
-import 'package:userprofileview/user_profile.dart';
+
+import 'package:userprofileview/user_profile_page/user_profile.dart';
 // import 'package:userprofileview/user_profile.dart';
 
 void main() {
